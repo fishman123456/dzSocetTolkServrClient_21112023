@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34302.85
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dzSocetTolkServrClient_21112023", "dzSocetTolkServrClient_21112023.csproj", "{873CE5B7-61CD-49DC-86AB-B28AD708390A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{873CE5B7-61CD-49DC-86AB-B28AD708390A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{873CE5B7-61CD-49DC-86AB-B28AD708390A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{873CE5B7-61CD-49DC-86AB-B28AD708390A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{873CE5B7-61CD-49DC-86AB-B28AD708390A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1F2463B2-A653-40C6-822B-087E65726C76}
+	EndGlobalSection
+EndGlobal
