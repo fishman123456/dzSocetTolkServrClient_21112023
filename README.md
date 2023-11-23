@@ -3,4 +3,4 @@
 <br>
 <br>
 
-![image](https://github.com/fishman123456/dzSocetTolkServrClient_21112023/assets/106389581/b20bf45b-6414-4d3d-9be6-500768a1751a)
+![image](https://github.com/fishman123456/dzSocetTolkServrClient_21112023/assets/106389581/8512b19f-3277-4258-9959-a7266d3a416b)
