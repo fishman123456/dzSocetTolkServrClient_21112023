@@ -10,7 +10,8 @@
 <br> <br> <br>
 алгоритм работы сервера и клиента, согласно написанной программе
 
-![image](https://github.com/fishman123456/dzSocetTolkServrClient_21112023/assets/106389581/ce9c0924-c0ba-4dab-9af1-3b7dbb035e2c)
+![image](https://github.com/fishman123456/dzSocetTolkServrClient_21112023/assets/106389581/ea41171e-2cd5-403d-90d7-71b24eaf4a30)
+
 
 
 
