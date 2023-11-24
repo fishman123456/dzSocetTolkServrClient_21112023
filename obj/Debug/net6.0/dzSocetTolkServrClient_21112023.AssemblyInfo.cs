@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("dzSocetTolkServrClient_21112023")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d7d936faabea644a1644e2bc6702b61c41a1b0aa")]
 [assembly: System.Reflection.AssemblyProductAttribute("dzSocetTolkServrClient_21112023")]
 [assembly: System.Reflection.AssemblyTitleAttribute("dzSocetTolkServrClient_21112023")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

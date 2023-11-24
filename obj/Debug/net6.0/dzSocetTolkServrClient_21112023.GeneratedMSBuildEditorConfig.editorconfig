@@ -8,4 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = dzSocetTolkServrClient_21112023
-build_property.ProjectDir = C:\Users\Fishman_1\Documents\GitHub\dzSocetTolkServrClient_21112023\
+build_property.ProjectDir = C:\Users\Fishman\Documents\GitHub\dzSocetTolkServrClient_21112023\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

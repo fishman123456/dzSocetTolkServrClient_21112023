@@ -1,0 +1,15 @@
+C:\Users\Fishman\Documents\GitHub\dzSocetTolkServrClient_21112023\obj\Debug\net6.0\dzSocetTolkServrClient_21112023.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Fishman\Documents\GitHub\dzSocetTolkServrClient_21112023\obj\Debug\net6.0\dzSocetTolkServrClient_21112023.AssemblyInfoInputs.cache
+C:\Users\Fishman\Documents\GitHub\dzSocetTolkServrClient_21112023\obj\Debug\net6.0\dzSocetTolkServrClient_21112023.AssemblyInfo.cs
+C:\Users\Fishman\Documents\GitHub\dzSocetTolkServrClient_21112023\obj\Debug\net6.0\dzSocetTolkServrClient_21112023.csproj.CoreCompileInputs.cache
+C:\Users\Fishman\Documents\GitHub\dzSocetTolkServrClient_21112023\obj\Debug\net6.0\dzSocetTolkServrClient_21112023.sourcelink.json
+C:\Users\Fishman\Documents\GitHub\dzSocetTolkServrClient_21112023\bin\Debug\net6.0\dzSocetTolkServrClient_21112023.exe
+C:\Users\Fishman\Documents\GitHub\dzSocetTolkServrClient_21112023\bin\Debug\net6.0\dzSocetTolkServrClient_21112023.deps.json
+C:\Users\Fishman\Documents\GitHub\dzSocetTolkServrClient_21112023\bin\Debug\net6.0\dzSocetTolkServrClient_21112023.runtimeconfig.json
+C:\Users\Fishman\Documents\GitHub\dzSocetTolkServrClient_21112023\bin\Debug\net6.0\dzSocetTolkServrClient_21112023.dll
+C:\Users\Fishman\Documents\GitHub\dzSocetTolkServrClient_21112023\bin\Debug\net6.0\dzSocetTolkServrClient_21112023.pdb
+C:\Users\Fishman\Documents\GitHub\dzSocetTolkServrClient_21112023\obj\Debug\net6.0\dzSocetTolkServrClient_21112023.dll
+C:\Users\Fishman\Documents\GitHub\dzSocetTolkServrClient_21112023\obj\Debug\net6.0\refint\dzSocetTolkServrClient_21112023.dll
+C:\Users\Fishman\Documents\GitHub\dzSocetTolkServrClient_21112023\obj\Debug\net6.0\dzSocetTolkServrClient_21112023.pdb
+C:\Users\Fishman\Documents\GitHub\dzSocetTolkServrClient_21112023\obj\Debug\net6.0\dzSocetTolkServrClient_21112023.genruntimeconfig.cache
+C:\Users\Fishman\Documents\GitHub\dzSocetTolkServrClient_21112023\obj\Debug\net6.0\ref\dzSocetTolkServrClient_21112023.dll

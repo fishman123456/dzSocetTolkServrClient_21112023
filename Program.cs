@@ -12,14 +12,14 @@ namespace dzSocetTolkServrClient_21112023
 {
     internal class Program
     {
-         //  Варианты для диалогов(выбрать любой один) :
-	    //   продавец/покупатель
-
+        //  Варианты для диалогов(выбрать любой один) :
+        //   продавец/покупатель
+       //public string serverIpStr = "25.45.70.14"; // ip адрес сокета сервера
+       //public int serverPort = 2620; // порт сокета сервера
         static void RunServer(string serverIpStr, int serverPort)
         {
             // 0 конфигурация сервера
-            //string serverIpStr = "25.45.70.14"; // ip адрес сокета сервера
-            //int serverPort = 2620; // порт сокета сервера
+            
             Socket server = null;
             Socket client = null;
             try
@@ -42,26 +42,26 @@ namespace dzSocetTolkServrClient_21112023
                 string message = $"Вы подключились, время подключения {DateTime.Now}";
                 client.Send(Encoding.UTF8.GetBytes(message));
                 Console.WriteLine($"server> отправлено сообщение {message}");
-
-                // 5.2  получить сообщение от клиента
+                
+                // начинаем общение
+                // 5.2  получить сообщение от клиента 1 сообщение
                 byte[] buffer = new byte[1024];
                 int bytesRead = client.Receive(buffer);
                 message = Encoding.UTF8.GetString(buffer, 0, bytesRead);
-                Console.WriteLine($"server> получено сообщение   {message}");
-
-                // сервер отправляет клиенту сообщение Goodbye
-                message = "Goodbye";
+                Console.WriteLine($"\nserver> получено сообщение   {message}");
+                // сервер отправляет клиенту первое сообщение 
+                message = "говорит сервер: Есть, 750 рублей, за 2 дешевле будет";
                 client.Send(Encoding.UTF8.GetBytes(message));
+                
                 Console.WriteLine($"server> отправлено сообщение {message}");
 
-                // 5.3  получить сообщение от клиента
-                byte[] bufferqv = new byte[1024];
+                // 5.3  получить сообщение от клиента 2 сообщение
+                buffer = new byte[1024];
                 int bytesReadqv = client.Receive(buffer);
                 message = Encoding.UTF8.GetString(buffer, 0, bytesRead);
-                Console.WriteLine($"server> получено сообщение   {message}");
-
-                // сервер отправляет клиенту сообщение Goodbye
-                message = "Goodbye";
+                Console.WriteLine($"\nserver> получено сообщение   {message}");
+                // сервер отправляет клиенту второе сообщение
+                message = "говорит сервер: Берите 4 лопаты и заплатите 2000р";
                 client.Send(Encoding.UTF8.GetBytes(message));
                 Console.WriteLine($"server> отправлено сообщение {message}");
 
@@ -104,20 +104,23 @@ namespace dzSocetTolkServrClient_21112023
                 client.Connect(serverEndpoint);
                 Console.WriteLine($"client>Произошло подключение ...{client.LocalEndPoint}-> {client.RemoteEndPoint}");
 
-                // 4.1 получить сообщение от сервера
+                // 4.1 получить сообщение от сервера  1 сообщение
                 byte[] buffer = new byte[1024]; // буфер для чтения сообщения
                 int byteRead = client.Receive(buffer); // читам сообщения в буфер, результат кол-во байт
                 string message = Encoding.UTF8.GetString(buffer, 0, byteRead); // декодируем байты в строку
-
-                message = "Отлично, работаем дальше";
+                // отправка сообщения на сервер
+                message = "говорит клиент: Здравствуйте.Лопаты есть?";
                 client.Send(Encoding.UTF8.GetBytes((string)message));
 
-                // 4.n получить сообщение от сервера
+                // 4.1 получить сообщение от сервера  2 сообщение
                 buffer = new byte[1024]; // буфер для чтения сообщения
                 byteRead = client.Receive(buffer); // читам сообщения в буфер, результат кол-во байт
-                message = Encoding.UTF8.GetString(buffer, 0, byteRead); // декодируем байты в строку
+                string messageqv = Encoding.UTF8.GetString(buffer, 0, byteRead); // декодируем байты в строку
+                // отправка сообщения на сервер
+                message = "";
+                message = "говорит клиент: Давайте четыре";
+                client.Send(Encoding.UTF8.GetBytes((string)message));
 
-                Console.WriteLine($"получено сообщение {message}");
                 Console.WriteLine("client>Завершение работы клиента...");
                 Console.ReadLine();
             }
@@ -137,7 +140,7 @@ namespace dzSocetTolkServrClient_21112023
             // 2) Клиент отправляет серверу сообщение
             // 3) Сервер отправляет клиенту сообщение Goodbye, работа завершается
             // Запустим сервер и клиент в разных потоках
-            string serverIpStr = "25.45.70.14"; // ip адрес сокета сервера
+            string serverIpStr = "127.0.0.1"; // ip адрес сокета сервера
             int serverPort = 2620; // порт сокета сервера
             Thread serverThread = new Thread(() => RunServer(serverIpStr, serverPort));
             Thread clientThread = new Thread(() => RunClient(serverIpStr, serverPort));
