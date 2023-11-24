@@ -7,5 +7,10 @@
 <br> <br> <br>
 подкоректировал массив байтов
 ![image](https://github.com/fishman123456/dzSocetTolkServrClient_21112023/assets/106389581/737099eb-bc80-4f17-9f26-37eb300dbced)
+<br> <br> <br>
+алгоритм работы сервера и клиента, согласно написанной программе
+
+![image](https://github.com/fishman123456/dzSocetTolkServrClient_21112023/assets/106389581/ce9c0924-c0ba-4dab-9af1-3b7dbb035e2c)
+
 
 
